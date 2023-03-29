@@ -1,0 +1,38 @@
+body{
+    background-image: url('images/MegaTron.jpg');
+    background-repeat: no-repeat;
+        
+}
+.barra_separadora {
+  background-color: #CC673B; /* Color de fondo */
+  border: 3px solid #C9C9C9; /* Color de Borde */
+  border-radius: 6px 6px 6px 6px;
+  color: #FFFFFF; /* Color de Letra */
+  font-family: Arial,Helvetica;
+  font-size: 20px;  /* tamaño de Letra */
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+}
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 2em;
+		background-color: #F9B53C;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: #CC673B;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
